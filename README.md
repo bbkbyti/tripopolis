@@ -91,7 +91,7 @@ https://whimsical.com/tripopolis-K7uLHHgdRrtU14du2bqdtg@2Ux7TurymN5o7bXhQPgj
 | Creating PlaceDetail.jsx in components folder | H | 2hrs|  | |
 | Working with API and proper axios call to fetch data from Airtable on /places:id | H | 3hrs|  |  |
 | Creating NewPlace.jsx in components folder| H | 2hrs|  | |
-| Creating form i NewPlace.jsx to post new data | H | 3hrs |  |  |
+| Creating form in NewPlace.jsx to post new data | H | 3hrs |  |  |
 | Working with API and axios.post to add user's input to the airtable and AllPlaces/places | H | 3hrs|  |  |
 | Creating Footer.jsx in components folder | H | 3hrs |  | |
 | Using React Route to Link components files | H | 3hrs|  |  |
