@@ -1,9 +1,9 @@
 
 # Project Overview
 
-# Project Name
- tripopolis
+# Tripopolis
 
+## Deployed URL
 
 ## Project Description
 A Social Media App where users can share photos and more information of the places they visited with other users. 
