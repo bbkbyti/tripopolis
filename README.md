@@ -1,9 +1,8 @@
 
 # Project Overview
 
-## Project Name
-
-## tripopolis
+# Project Name
+# tripopolis
 
 
 ## Project Description
