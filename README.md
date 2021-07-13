@@ -47,8 +47,6 @@ Show us a snippet of JSON returned by your Airtable (you can find it under the A
 
 
 #### MVP 
-*These are examples only. Replace with your own MVP features.*
-
 - Create a react app with enough numbers of components to achieve this project's goal
 - Create an Airtable API documentation for the App
 - Use at least the minimum number of CRUD calls for this project
@@ -57,13 +55,12 @@ Show us a snippet of JSON returned by your Airtable (you can find it under the A
 - Allow user to add their favorite places
 
 #### PostMVP  
+
 - Allow user to delete their their posts
 - Allow users to edit their posts
 - Provide appropriate tools for users to be able to upload their personal photos if they choose to
 
 ## Project Schedule
-
-This schedule will be used to keep track of your progress throughout the week and align with our expectations. Here's an example.
 
 |  Day | Deliverable | Status
 |---|---| ---|
