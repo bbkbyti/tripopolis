@@ -51,12 +51,15 @@ https://whimsical.com/tripopolis-K7uLHHgdRrtU14du2bqdtg@2Ux7TurymN5o7bXhQPgj
 - Appropriate axios calls to render information from Airtable documentation 
 - Display API information on the relevant component 
 - Allow user to add their favorite places
+- Style with flex box
+- Media Query for cell phone size
 
 #### PostMVP  
 
 - Allow user to delete their their posts
 - Allow users to edit their posts
 - Provide appropriate tools for users to be able to upload their personal photos if they choose to
+- Style with tailwind
 
 ## Project Schedule
 
