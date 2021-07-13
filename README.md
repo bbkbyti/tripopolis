@@ -95,7 +95,7 @@ https://whimsical.com/tripopolis-K7uLHHgdRrtU14du2bqdtg@2Ux7TurymN5o7bXhQPgj
 | Working with API and axios.post to add user's input to the airtable and AllPlaces/places | H | 3hrs|  |  |
 | Creating Footer.jsx in components folder | H | 3hrs |  | |
 | Using React Route to Link components files | H | 3hrs|  |  |
-| Styling the App with CSS tools such as Flex box and Grid | H | 6hrs|  |  |
+| Styling the website with CSS tools such as Flex box and Grid | H | 6hrs|  |  |
 | Total | H | 50hrs |  |  |
 
 ## SWOT Analysis
