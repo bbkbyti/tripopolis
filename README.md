@@ -22,37 +22,23 @@ https://whimsical.com/tripopolis-K7uLHHgdRrtU14du2bqdtg@2Ux7TurymN5o7bXhQPgj
 Show us a snippet of JSON returned by your Airtable (you can find it under the API documentation) so we know you can access it and get the info you need. This __must__ be properly formatted. An example is below:
 
 ```json
+
 {
     "records": [
         {
-            "id": "recONRzIUTuZ5lXaF",
+            "id": "recEVXrilPmCrYKDC",
             "fields": {
-                "author": "Liz Yrineo",
-                "setup": "Why did the tomato turn red?",
-                "punchline": "Because it saw the salad dressing!"
+                "country": "united states",
+                "state": "california",
+                "city": "san diego",
+                "location": "balboa park",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzbeq247_lSXhrjxJDwJfnw2qmGn-BMwEMaw&usqp=CAU",
+                "fee": "No"
             },
-            "createdTime": "2020-11-30T16:03:09.000Z"
-        },
-        {
-            "id": "rec3oYZ5Tp0AIDsKe",
-            "fields": {
-                "author": "Rachel Moskowitz",
-                "setup": "What did the green grape say to the red grape?",
-                "punchline": "Breathe, idiot, breathe!"
-            },
-            "createdTime": "2020-11-30T16:03:09.000Z"
-        },
-        {
-            "id": "recA34tOaoE1IVeC1",
-            "fields": {
-                "author": "Gary Grant",
-                "setup": "How do you make holy water?",
-                "punchline": "You boil the hell out of it!"
-            },
-            "createdTime": "2020-11-30T16:03:09.000Z"
+            "createdTime": "2021-07-13T15:00:34.000Z"
         }
     ],
-    "offset": "recA34tOaoE1IVeC1"
+    "offset": "recEVXrilPmCrYKDC"
 }
 ```
 
@@ -63,8 +49,11 @@ The functionality will then be divided into two separate lists: MVP and PostMVP.
 #### MVP 
 *These are examples only. Replace with your own MVP features.*
 
-- Find and use external api 
-- Render data on page 
+- Create a react app with enough numbers of components to achieve this project's goal
+- Create an Airtable API documentation for the App
+- Use at least the minimum number of CRUD calls for this project
+- Appropriate axios calls to render information from Airtable documentation 
+- Display API information on the relevant component 
 - Allow user to choose favorites 
 
 #### PostMVP  
