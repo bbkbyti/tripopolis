@@ -51,8 +51,8 @@ https://whimsical.com/tripopolis-K7uLHHgdRrtU14du2bqdtg@2Ux7TurymN5o7bXhQPgj
 - Appropriate axios calls to render information from Airtable documentation 
 - Display API information on the relevant component 
 - Allow user to add their favorite places
-- Style with flex box
-- Media Query for cell phone size
+- Style with CSS - flex box-
+- @mediaQuery for cell phones(iPhoneX) size
 
 #### PostMVP  
 
