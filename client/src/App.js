@@ -11,19 +11,19 @@ import Places from "./components/Places"
 function App() {
   return (
     <div className="App">
-      <Route  path="/">
-        <Navbar/>
+      <Route path="/">
+        <Navbar />
       </Route>
-      
-       <Route  path="/">
-       <HomePage />
-       </Route>
-       <Route  path="/places">
-         <Places />
-       </Route>
-      
-       
-      
+
+      <Route path="/">
+        <HomePage />
+      </Route>
+      <Route path="/places">
+        <Places />
+      </Route>
+
+
+
     </div>
   );
 }
