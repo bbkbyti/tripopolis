@@ -1,6 +1,8 @@
 import axios from 'axios';
-import {useState, useEffect} from 'react';
+import { useState, useEffect } from 'react';
 import { BASE_URL, headers } from "../services"
+
+import PlaceCard from './PlaceCard';
 
 export default function Places() {
     const [places, setPlaces] = useState([])
@@ -24,7 +26,8 @@ export default function Places() {
     return (
         <div>
             {places.map((place) => {
-                return <div>{place.fields.country}</div>
+
+                return <PlaceCard place={place} />
             })}
         </div>
     )
