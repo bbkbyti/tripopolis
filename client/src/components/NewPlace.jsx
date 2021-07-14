@@ -38,7 +38,7 @@ export default function NewPlace() {
                 <input 
                 name="country"
                 value={input.country}
-                placeholder="country..."
+                placeholder="country"
                 onChange={handleChange}/>
                 <br/>
 
@@ -47,16 +47,16 @@ export default function NewPlace() {
                 <input
                 name="city"
                 value={input.city}
-                placeholder="city..."
+                placeholder="city"
                 onChange={handleChange}/>
                 <br/>
 
                 <label>location</label>
                 <br />
                 <input
-                name="location..."
+                name="location"
                 value={input.location}
-                placeholder="name of location..."
+                placeholder="name of location"
                 onChange={handleChange}/>
                 <br/>
 
@@ -74,7 +74,7 @@ export default function NewPlace() {
                 <input
                 name="description"
                 value={input.description}
-                placeholder="about this location..."
+                placeholder="about this location"
                 onChange={handleChange}/>
                 <br />
                 <br />
