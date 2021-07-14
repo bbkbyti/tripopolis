@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import HomePage from './components/HomePage';
 import Places from "./components/Places"
 import PlaceDetail from './components/PlaceDetail';
+import NewPlace from './components/NewPlace';
 
 
 
@@ -19,10 +20,16 @@ function App() {
       <Route path="/">
         <HomePage />
       </Route>
-      <Route path="/places">
+
+      <Route exact path="/places">
         <Places />
       </Route>
-      <Route path="/places/:id">
+
+      <Route exact path="/new-place">
+        <NewPlace />
+      </Route>
+
+      <Route exact path="/places/:id">
         <PlaceDetail />
       </Route>
 

@@ -10,7 +10,7 @@ export default function Navbar() {
             </Link>
             
             <Link to="/new-place">
-            <h2>Share your experience!</h2>
+            <h2>Share your favorite places!</h2>
             </Link>
             <Link to="/places"> 
             <h2>All Places</h2>
