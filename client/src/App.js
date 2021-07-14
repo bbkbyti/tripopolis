@@ -4,6 +4,7 @@ import { Route } from "react-router-dom";
 import Navbar from './components/Navbar';
 import HomePage from './components/HomePage';
 import Places from "./components/Places"
+import PlaceDetail from './components/PlaceDetail';
 
 
 
@@ -20,6 +21,9 @@ function App() {
       </Route>
       <Route path="/places">
         <Places />
+      </Route>
+      <Route path="/places/:id">
+        <PlaceDetail />
       </Route>
 
 
