@@ -56,7 +56,7 @@ https://whimsical.com/tripopolis-K7uLHHgdRrtU14du2bqdtg@2Ux7TurymN5o7bXhQPgj
 
 #### PostMVP  
 
-- Allow user to delete their their posts
+- Allow user to delete their posts
 - Allow users to edit their posts
 - Provide appropriate tools for users to be able to upload their personal photos if they choose to
 - Style with tailwind
