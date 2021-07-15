@@ -6,7 +6,7 @@ import HomePage from './components/HomePage';
 import Places from "./components/Places"
 import PlaceDetail from './components/PlaceDetail';
 import NewPlace from './components/NewPlace';
-
+import Footer from './components/Footer';
 
 
 
@@ -17,7 +17,7 @@ function App() {
         <Navbar />
       </Route>
 
-      <Route path="/">
+      <Route exact path="/">
         <HomePage />
       </Route>
 
@@ -32,6 +32,8 @@ function App() {
       <Route exact path="/places/:id">
         <PlaceDetail />
       </Route>
+
+      <Footer />
 
 
 

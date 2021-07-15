@@ -5,7 +5,7 @@ import "./Navbar.css";
 export default function Navbar() {
     return (
         <div>
-            <div className="nav">
+            <div className="flex justify-evenly items-center h-13 bg-gray-400 text-black relative shadow-sm font-mono">
             <Link to="/">
             <h2>Tripopolis</h2>
             </Link>

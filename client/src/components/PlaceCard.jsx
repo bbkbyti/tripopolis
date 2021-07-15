@@ -7,7 +7,7 @@ export default function PlaceCard({ place }) {
     return (
         <Link to={`/places/${id}`}>
             <div>
-                <img src={fields.image} alt={fields.city} width="80px" height="90px" />
+                <img src={fields.image} alt={fields.city} width="80px" height="80px" />
                 <h1>{fields.city}</h1>
             </div>
         </Link>

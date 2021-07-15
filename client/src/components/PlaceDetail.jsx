@@ -1,8 +1,7 @@
 import {useState, useEffect} from 'react'
-import { Link, useParams } from 'react-router-dom';
+import {  useParams } from 'react-router-dom';
 import axios from "axios"
-import { BASE_URL, headers } from "../services"
-
+import { BASE_URL, headers } from "../services";
 export default function PlaceDetail() {
     const [place, setPlace] = useState({});
     const { id } = useParams();
@@ -15,11 +14,16 @@ export default function PlaceDetail() {
         }
         fetchPlace();
 
-    }, []);
+    }, [id]);
+    
+      if (!place.fields) {
+        return <div>Loading...</div>;
+      }
+
     return (
         
         <div>
-            <img src={place.fields?.image}/>
+            <img src={place.fields?.image} alt= " " />
             <h1>{place.fields?.location}</h1>
             <h2>{place.fields?.city}</h2>
             <h3>{place.fields?.country}</h3>

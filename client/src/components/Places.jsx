@@ -18,11 +18,6 @@ export default function Places() {
         fetchPlaces();
     }, [])
 
-
-
-
-
-
     return (
         <div>
             {places.map((place) => {
