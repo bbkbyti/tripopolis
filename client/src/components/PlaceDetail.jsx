@@ -20,6 +20,13 @@ export default function PlaceDetail() {
         return <div>Loading...</div>;
       }
 
+
+      const handleDelete = async () => {
+          const URL = `${BASE_URL}/${id}`;
+          const response = await axios.delete(URL, { headers });
+          console.log(response)
+      }
+      
     return (
         
         <div>
@@ -27,6 +34,7 @@ export default function PlaceDetail() {
             <h1>{place.fields?.location}</h1>
             <h2>{place.fields?.city}</h2>
             <h3>{place.fields?.country}</h3>
+            <button onClick={handleDelete}>Delete</button>
         </div>
         
         
