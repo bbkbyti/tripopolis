@@ -20,7 +20,7 @@ export default function Places() {
 
     return (
 
-        <div className="mt-8 grid lg:grid-cols-5 gap-10">
+        <div>
             <div 
             // className="mt-5 grid grid-cols-2 md:grid md:grid-cols-3 lg:grid-cols-4 overflow-hidden"
             >

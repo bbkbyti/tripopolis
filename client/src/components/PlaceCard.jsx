@@ -5,18 +5,21 @@ export default function PlaceCard({ place }) {
     const { id, fields } = place;
 
     return (
-        <Link to={`/places/${id}`}>
-            <div class="p-10 bg-yellow-400 min-h-screen" >
-                <div className="bg-white rounded overflow-hidden shadow-lg bg-opacity-25">
-                <img    class=" w-full grid grid-cols-6 gap-3 lg:grid-cols-3 h-32 object-cover"
+        
+            <div className=" p-10 bg-gray-300"  >
+                <div className="bg-white rounded overflow-hidden shadow-lg bg-opacity-25 relative hover:from-red-600">
+                <img    class=" w-full grid h-32 object-cover"
                         src={fields.image}
                         alt=""/>
-                    <div class="text-gray-900 font-bold text-xl flex ">
+                        <Link to={`/places/${id}`}>
+                        <div class="text-gray-900 font-black text-xl m-4 flex capitalize" >
                                 {fields.city}
                             </div>
+                        </Link>
+                    
                 </div>
                     
                         </div>
-            </Link>
+            
     );
 }

@@ -31,12 +31,14 @@ export default function NewPlace() {
     };
 
     return (
-        <div className="bg-black min-h-screen bg-footer-texture ">
+        <div className= "min-h-screen bg-gray-600 shadow-2xl  px-10 pt-10 pb-10 mb-4 font-mono">
             <div className="flex bg-gray-300 ">
+                <div className="flex font-bold uppercase">
                 <h3>Share your picture</h3>
-
-                <form onSubmit={handleSubmit}>
-                    <label>country</label>
+                </div>
+                <form className="mt-16"
+                    onSubmit={handleSubmit}>
+                    <label className="font-bold uppercase">country</label>
                     <br />
                     <input
                         name="country"
@@ -45,8 +47,7 @@ export default function NewPlace() {
                         onChange={handleChange}
                     />
                     <br />
-
-                    <label>city</label>
+                    <label className="font-bold uppercase">city</label>
                     <br />
                     <input
                         name="city"
@@ -55,8 +56,7 @@ export default function NewPlace() {
                         onChange={handleChange}
                     />
                     <br />
-
-                    <label>location</label>
+                    <label className="font-bold uppercase">location</label>
                     <br />
                     <input
                         name="location"
@@ -65,35 +65,32 @@ export default function NewPlace() {
                         onChange={handleChange}
                     />
                     <br />
-
-                    <label>image</label>
+                    <label className="font-bold uppercase">image</label>
                     <br />
 
                     <div  >
-                    <input 
-                        name="image"
-                        value={input.image}
-                        placeholder="paste your image url !"
-                        onChange={handleChange}
-                    />
-
+                        <input
+                            name="image"
+                            value={input.image}
+                            placeholder="paste your image url !"
+                            onChange={handleChange}
+                        />
                     </div>
-                    
-                    <br />
-
-                    <label>description</label>
+                    <label className="font-bold uppercase">description</label>
                     <br />
                     <input
-                        name="description"
-                        value={input.description}
-                        placeholder="about this location"
-                        onChange={handleChange}
-                    />
+                    name="description"
+                    value={input.description}
+                    placeholder="about this location"
+                    onChange={handleChange}/>
                     <br />
-                    <button className="bg-green-400 text-white px-6 py-2 mt-3 ">share</button>
+                    <button className="bg-green-400 hover:bg-gray-400  text-white text-xs  px-6 py-2 mt-3 mb-3 ">share</button>
 
                 </form>
+               </div>
+
+                
             </div>
-        </div>
+        
     );
 }
