@@ -31,7 +31,7 @@ export default function NewPlace() {
     };
 
     return (
-        <div className="bg-black min-h-screen bg-footer-texture mt-22">
+        <div className="bg-black min-h-screen bg-footer-texture ">
             <div className="flex bg-gray-300 ">
                 <h3>Share your picture</h3>
 
