@@ -4,9 +4,9 @@ import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
 
 export default function Footer() {
   return (
-    <div className=" bg-gray-800 text-white p-1 mt-auto flex justify-evenly items-center font-mono">
-      <div>
-        
+    <div className=" bg-gray-800 text-white p-1 mt-auto flex justify-evenly items-center font-serif" >
+      <div className="flex">
+        <div className=" flex ">
         <a href="https://www.linkedin.com/in/babak-bayati-8bb990202" target="_blank" rel="noreferrer">
           <FaLinkedin />
           </a>
@@ -21,7 +21,11 @@ export default function Footer() {
           <FaTwitter />
         </a>
         </div>
-      <h2> © Babak Bayati 2021</h2>
+        
+        </div>
+      <div>
+      <p>©Babak Bayati 2021</p>
+      </div>
     </div>
   );
 }

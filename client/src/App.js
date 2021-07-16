@@ -7,15 +7,37 @@ import Places from "./components/Places"
 import PlaceDetail from './components/PlaceDetail';
 import NewPlace from './components/NewPlace';
 import Footer from './components/Footer';
+import { useState, useEffect } from "react";
+import Dropdown from './components/Dropdown';
+
 
 
 
 function App() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggle = () => {
+    setIsOpen(!isOpen);
+  };
+  useEffect(() => {
+    const hideMenu = () => {
+      if (window.innerWidth > 768 && isOpen) {
+        setIsOpen(false);
+      }
+    };
+    window.addEventListener("resize", hideMenu);
+
+    return () => {
+      window.removeEventListener("resize", hideMenu);
+    };
+  });
+
+
   return (
     <div className="App">
-      <Route path="/">
-        <Navbar />
-      </Route>
+<Navbar toggle={toggle} />
+<Dropdown isOpen={isOpen} toggle={toggle} />
+    
 
       <Route exact path="/">
         <HomePage />

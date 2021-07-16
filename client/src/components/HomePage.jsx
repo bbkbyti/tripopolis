@@ -5,15 +5,10 @@ import "./HomePage.css";
 
 export default function HomePage() {
     return (
-        <div>
-
-            <Link to="/places">
-                {/* <h3>My Favorite Places</h3> */}
-            </Link>
-
-            <div className='wrapper'>
-                <div className="sliding-background"></div>
-            </div>
+        <div className="bg-hero-lg bg-no-repeat h-screen bg-cover lg:bg-bbk lg:bg-contain">
+            
+            <div className=""></div>
+            
         </div>
     )
 }

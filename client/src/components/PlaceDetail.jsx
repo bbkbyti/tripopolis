@@ -34,13 +34,21 @@ export default function PlaceDetail() {
 
     return (
 
-        <div>
-            <img src={place.fields?.image} alt=" " />
+        <div className=" min-h-screen items-center justify-center lg:flex lg:flex-col md:flex md:flex-col  overflow-hidden">
+            <img className="flex  max-w-screen-prose lg:mb-5 lg:w-8/12 lg:h-8/12 md:mb-5 md:w-8/12 md:h-8/12"
+            src={place.fields?.image} alt=" " />
+            <div>
             <h1>{place.fields?.location}</h1>
             <h2>{place.fields?.city}</h2>
             <h3>{place.fields?.country}</h3>
+            <p>{place.fields?.description}</p>
+            </div>
+            
+
+            
+
             <div>
-                <button onClick={handleDelete}>Delete</button>
+                <button onClick={handleDelete} className="bg-red-400 text-white px-2 py-1">Delete</button>
             </div>
 
         </div>
