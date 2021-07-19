@@ -22,10 +22,9 @@ export default function Places() {
 
         <div>
             <div 
-            className='pictures'
-            // className="mt-5 grid grid-cols-2 md:grid md:grid-cols-3 lg:grid-cols-4 overflow-hidden"
+            className='lg:grid lg:grid-cols-3 md:grid md:grid-cols-3 '
             >
-            {places.map((place) => {
+            {places.map((place,) => {
                 return <PlaceCard place={place} />
             })}
         </div>

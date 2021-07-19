@@ -33,12 +33,12 @@ export default function NewPlace() {
     };
 
     return (
-        <div className="min-h-screen bg-gray-400 shadow-2xl  px-10 pt-10 pb-10 mb-4 font-mono">
+        <div className="min-h-screen bg-gray-500 shadow-2xl  px-8 pt-10 pb-10 mb-4 font-serif">
 
-            <div className="flex justify-center font-bold uppercase">
+            <div className="flex justify-center font-bold uppercase text-white text-2xl italic font-mono">
                 <h3>Share your picture</h3>
             </div>
-            <div className="flex justify-center bg-gray-300 rounded-lg mt-14 px-6 py-8 shadow-2xl">
+            <div className="flex justify-center bg-gray-300 rounded-lg mt-14 px-2 py-5 shadow-2xl">
                 <form onSubmit={handleSubmit}>
                     <div>
                         <label className="font-bold uppercase">country</label>
@@ -50,8 +50,10 @@ export default function NewPlace() {
                             onChange={handleChange}
                         />
                         <br />
+                        <br />
                         <label className="font-bold uppercase">city</label>
                         <br />
+                       
                         <input
                             name="city"
                             value={input.city}
@@ -59,6 +61,7 @@ export default function NewPlace() {
                             onChange={handleChange}
                         />
                         <br />
+                        <br/>
                         <label className="font-bold uppercase">location</label>
                         <br />
                         <input
@@ -68,6 +71,7 @@ export default function NewPlace() {
                             onChange={handleChange}
                         />
                         <br />
+                        <br/>
                         <label className="font-bold uppercase">image</label>
                         <br />
 
@@ -79,6 +83,7 @@ export default function NewPlace() {
                                 onChange={handleChange}
                             />
                         </div>
+                        <br/>
                         <label className="font-bold uppercase">description</label>
                         <br />
                         <input

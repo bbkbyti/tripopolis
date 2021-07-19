@@ -9,6 +9,8 @@ import NewPlace from './components/NewPlace';
 import Footer from './components/Footer';
 import { useState, useEffect } from "react";
 import Dropdown from './components/Dropdown';
+import Favorites from './components/Favorites';
+
 
 
 
@@ -35,9 +37,9 @@ function App() {
 
   return (
     <div className="App">
-<Navbar toggle={toggle} />
-<Dropdown isOpen={isOpen} toggle={toggle} />
-    
+      <Navbar toggle={toggle} />
+      <Dropdown isOpen={isOpen} toggle={toggle} />
+
 
       <Route exact path="/">
         <HomePage />
@@ -50,17 +52,13 @@ function App() {
       <Route exact path="/new-place">
         <NewPlace />
       </Route>
-
+      <Route exact path="/favorites">
+        <Favorites />
+      </Route>
       <Route exact path="/places/:id">
         <PlaceDetail />
       </Route>
-
-      
-
       <Footer />
-
-
-
     </div>
   );
 }
