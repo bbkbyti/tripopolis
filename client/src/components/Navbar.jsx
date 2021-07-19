@@ -15,9 +15,7 @@ export default function Navbar({ toggle }) {
             </div>
             <div className="pr-8 md:block hidden  ">
 
-                <Link className="">
-                    About
-                </Link>
+                
                 <Link className="p-4 " to="/new-place">
                     Share your favorite places
                 </Link>

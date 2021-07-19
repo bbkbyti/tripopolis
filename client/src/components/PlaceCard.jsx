@@ -8,7 +8,7 @@ export default function PlaceCard({ place }) {
         <div className="cards">
             <div className='card' >
                 <div>
-                    <img src={fields.image} style={{ width: '100%', height: '300px' }} />
+                    <img src={fields.image} alt="" style={{ width: '100%', height: '300px' }} />
                 </div>
                 <div className='cityName'>
                     <Link to={`/places/${id}`}>
