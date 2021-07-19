@@ -6,19 +6,22 @@ function Dropdown({ isOpen, toggle }) {
     <div
       className={
         isOpen
-          ? "grid grid-rows-3 text-center items-center"
+          ? "grid grid-rows-3 text-center items-center bg-gray-400"
           : "hidden"
       }
       onClick={toggle}
     >
-      <Link to="/" className="p-4 font-mono">
+      <Link to="/" className="p-4 font-serif text-white">
       Home
       </Link>
-      <Link to="/new-place" className="p-4 font-mono">
-      Share your favorite places!
+      <Link to="/new-place" className="p-4 font-serif text-white">
+      Share
       </Link>
-      <Link to="/places" className="p-4 font-mono">
+      <Link to="/places" className="p-4 font-serif text-white">
       All Places
+      </Link>
+      <Link to="/about" className="p-4 font-serif text-white">
+        About
       </Link>
     </div>
   );

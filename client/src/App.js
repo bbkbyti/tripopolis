@@ -55,6 +55,8 @@ function App() {
         <PlaceDetail />
       </Route>
 
+      
+
       <Footer />
 
 
