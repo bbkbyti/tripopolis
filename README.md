@@ -3,7 +3,7 @@
 
 # Tripopolis
 
-## Deployed URL
+## https://tripopolis.netlify.app/
 
 ## Project Description
 A Social Media App where users can share photos and more information of the places they visited with other users. 
