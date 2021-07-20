@@ -71,8 +71,8 @@ https://whimsical.com/tripopolis-K7uLHHgdRrtU14du2bqdtg@2Ux7TurymN5o7bXhQPgj
 |July 14| Pseudocode / actual code | Complete
 |July 15| Initial Clickable Model  | Complete
 |July 16| MVP | Complete
-|July 18| PostMVP | Incomplete
-|July 20| Presentations | Incomplete
+|July 18| PostMVP | Complete
+|July 20| Presentations | Complete
 
 ## Timeframes
 
