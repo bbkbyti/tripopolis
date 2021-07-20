@@ -11,6 +11,8 @@ import { useState, useEffect } from "react";
 import Dropdown from './components/Dropdown';
 import Favorites from './components/Favorites';
 import FavoritesDetails from './components/FavoritesDetails';
+import About from './components/About';
+
 
 
 function App() {
@@ -55,6 +57,10 @@ function App() {
       <Route exact path="/favorites/:id">
         <FavoritesDetails/>
       </Route>
+      <Route exact path="/about">
+      <About />
+      </Route>
+      
       <Footer />
     </div>
   );

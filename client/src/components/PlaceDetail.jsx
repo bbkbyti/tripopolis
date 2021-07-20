@@ -36,7 +36,7 @@ export default function PlaceDetail() {
             <img className=""
                 src={place.fields?.image} alt=" " />
             <div>
-                <div className="font font-semibold italic text-white">
+                <div className="font font-semibold italic text-white capitalize">
                     <div className="font-black text-xl mt-5 mb-3">
 
                         <h1>{place.fields?.location}</h1>
@@ -54,8 +54,8 @@ export default function PlaceDetail() {
 
                 </div>
                 <div className="">
-                <button onClick={handleDelete} className="bg-red-400 hover:bg-red-700 text-white px-10 py-2 rounded-lg mt-5 mb-5 font-bold md:text-sm">Delete</button>
-            </div>
+                    <button onClick={handleDelete} className="bg-red-400 hover:bg-red-700 text-white px-10 py-2 rounded-lg mt-5 mb-5 font-bold md:text-sm">Delete</button>
+                </div>
             </div>
 
         </div>

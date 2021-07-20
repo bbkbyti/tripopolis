@@ -38,7 +38,7 @@ export default function NewPlace() {
             <div className="flex justify-center font-bold uppercase text-white text-2xl italic font-mono">
                 <h3>Share your picture</h3>
             </div>
-            <div className="flex justify-center bg-gray-300 rounded-lg mt-14  py-5 shadow-2xl">
+            <div className="form flex justify-center bg-gray-300 rounded-lg mt-14  py-5 shadow-2xl lg:flex lg:justify-center lg:items-center">
                 <form onSubmit={handleSubmit}>
                     <div>
                         <label className="font-bold uppercase">country</label>
@@ -53,7 +53,7 @@ export default function NewPlace() {
                         <br />
                         <label className="font-bold uppercase">city</label>
                         <br />
-                       
+
                         <input
                             name="city"
                             value={input.city}
@@ -61,7 +61,7 @@ export default function NewPlace() {
                             onChange={handleChange}
                         />
                         <br />
-                        <br/>
+                        <br />
                         <label className="font-bold uppercase">location</label>
                         <br />
                         <input
@@ -71,7 +71,7 @@ export default function NewPlace() {
                             onChange={handleChange}
                         />
                         <br />
-                        <br/>
+                        <br />
                         <label className="font-bold uppercase">image</label>
                         <br />
 
@@ -83,7 +83,7 @@ export default function NewPlace() {
                                 onChange={handleChange}
                             />
                         </div>
-                        <br/>
+                        <br />
                         <label className="font-bold uppercase">description</label>
                         <br />
                         <input
