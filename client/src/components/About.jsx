@@ -7,8 +7,8 @@ export default function About() {
         <div className="min-h-screen flex flex-col bg-gray-700 font-serif" >
             <h1 className="italic text-5xl pt-4  bg-gray-500 text-gray-100 lg:p-4 lg:mx-64 ">Tripopolis</h1>
 
-            <div className="bg-gray-500 text-xl md:mx-64 md:mt-auto md:mb-auto">
-            <div className=" pt-8 md:text-4xl text-white md:mx-64 leading-loose lg:mt-5">
+            <div className="bg-gray-500 text-xl lg::mx-64 lg:mt-auto lg:mb-auto">
+            <div className=" pt-8 lg:text-4xl text-white lg:mx-64 leading-loose lg:mt-5">
                 <div>
                 <p>We are a website where you can share your travel moments and favorite places with your family, friends and all the world. Come and share your story with us, and let's go on this amazing journey together.
                 </p>
