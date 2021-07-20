@@ -21,14 +21,14 @@ export default function Places() {
     return (
 
         <div>
-            <div 
-            className='lg:grid lg:grid-cols-3 md:grid md:grid-cols-3 '
+            <div
+                className=' min-h-screen lg:grid lg:grid-cols-3 md:grid md:grid-cols-3 hover:b '
             >
-            {places.map((place,) => {
-                return <PlaceCard place={place} />
-            })}
+                {places.map((place,) => {
+                    return <PlaceCard place={place} />
+                })}
+            </div>
         </div>
-        </div>
-        
+
     )
 }
