@@ -25,17 +25,15 @@ export default function PlaceDetail() {
         return <div>Loading...</div>;
     }
 
-
     const handleDelete = async () => {
         const URL = `${BASE_URL}/${id}`;
         await axios.delete(URL, { headers });
         history.push('/places')
     }
-
     return (
 
-        <div className=" bg-gray-600 min-h-screen lg:items-center lg:justify-center lg:flex lg:text-2xl overflow-hidden lg:flex-col md:flex md:justify-center md:items-center md:flex-col md:text-2xl">
-            <img className="flex  max-w-screen-prose lg:mb-5 lg:w-10/12 lg:h-8/12 md:mb-5 md:w-6/12 md:h-8/12"
+        <div className=" bg-gray-600 min-h-screen overflow-hidden md:flex md:justify-center md:items-center md:flex-col md:text-2xl lg:grid lg:grid-cols-2 lg:min-h-screen ">
+            <img className=""
                 src={place.fields?.image} alt=" " />
             <div>
                 <div className="font font-semibold italic text-white">
@@ -55,14 +53,9 @@ export default function PlaceDetail() {
                     </div>
 
                 </div>
-
+                <div className="">
+                <button onClick={handleDelete} className="bg-red-400 hover:bg-red-700 text-white px-10 py-2 rounded-lg mt-5 mb-5 font-bold md:text-sm">Delete</button>
             </div>
-
-
-
-
-            <div>
-                <button onClick={handleDelete} className="bg-red-400 hover:bg-red-700 text-white px-4 py-2 rounded-lg mt-5 mb-5 font-bold md:text-sm lg:text-sm">Delete</button>
             </div>
 
         </div>

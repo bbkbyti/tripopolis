@@ -10,9 +10,7 @@ import Footer from './components/Footer';
 import { useState, useEffect } from "react";
 import Dropdown from './components/Dropdown';
 import Favorites from './components/Favorites';
-
-
-
+import FavoritesDetails from './components/FavoritesDetails';
 
 
 function App() {
@@ -39,16 +37,12 @@ function App() {
     <div className="App">
       <Navbar toggle={toggle} />
       <Dropdown isOpen={isOpen} toggle={toggle} />
-
-
       <Route exact path="/">
         <HomePage />
       </Route>
-
       <Route exact path="/places">
         <Places />
       </Route>
-
       <Route exact path="/new-place">
         <NewPlace />
       </Route>
@@ -57,6 +51,9 @@ function App() {
       </Route>
       <Route exact path="/places/:id">
         <PlaceDetail />
+      </Route>
+      <Route exact path="/favorites/:id">
+        <FavoritesDetails/>
       </Route>
       <Footer />
     </div>

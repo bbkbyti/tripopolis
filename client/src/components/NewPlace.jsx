@@ -38,7 +38,7 @@ export default function NewPlace() {
             <div className="flex justify-center font-bold uppercase text-white text-2xl italic font-mono">
                 <h3>Share your picture</h3>
             </div>
-            <div className="flex justify-center bg-gray-300 rounded-lg mt-14 px-2 py-5 shadow-2xl">
+            <div className="flex justify-center bg-gray-300 rounded-lg mt-14  py-5 shadow-2xl">
                 <form onSubmit={handleSubmit}>
                     <div>
                         <label className="font-bold uppercase">country</label>
@@ -87,7 +87,7 @@ export default function NewPlace() {
                         <label className="font-bold uppercase">description</label>
                         <br />
                         <input
-                            className='description'
+                            className='p-5'
                             name="description"
                             value={input.description}
                             placeholder="about this location"
