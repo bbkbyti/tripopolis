@@ -8,47 +8,6 @@
   pointer-events: none;
 }
 
-.cityName{
-  position: absolute;
-  margin-top:20px;
-  visibility: hidden;
-  font-size: 45px;
-  color: #ffffff;
-  z-index: 100;
-
-}
-
-.cards{
-  transition: ease 0.5s;
-  margin-top: 5px;
- 
-}
-
-
-.card{
-  display: flex;
-  width: '100vh';
-flex-direction: column;
-justify-content: center;
-align-items: center;
-background-size: cover;
-background-position: center;
-padding: 10px 50px 10px 50px;
-margin: -30px 50px 15px 50px 
-
-}
-
-.card:hover .cityName{
-  visibility: visible;
-}
-
-.cards:hover{
-  background-color: rgb(255, 255, 255);
-  opacity: 0.8;
-  transform: scale(1.1);
-}
-
-
 .pictures{
   margin-top:50px;
   
